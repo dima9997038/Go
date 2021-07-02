@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_201" class="java.beans.XMLDecoder">
+ <object class="java.util.Vector">
+  <void method="add">
+   <object class="ComputerItems.myClasses.Printer" id="Printer0">
+    <void property="color">
+     <string>black-white</string>
+    </void>
+    <void property="kind">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>ComputerItems.myClasses.Printer$Kind</class>
+      <string>laser</string>
+     </object>
+    </void>
+    <void property="model">
+     <string>LG-9086</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="ComputerItems.myClasses.Controller_IO" id="Controller_IO0">
+    <void class="ComputerItems.myClasses.External_Device_Controller" method="getField">
+     <string>standart</string>
+     <void method="set">
+      <object idref="Controller_IO0"/>
+      <object class="java.lang.Enum" method="valueOf">
+       <class>ComputerItems.myClasses.External_Device_Controller$Standart</class>
+       <string>etc</string>
+      </object>
+     </void>
+    </void>
+    <void class="ComputerItems.myClasses.Computer_item" method="getField">
+     <string>producer</string>
+     <void method="set">
+      <object idref="Controller_IO0"/>
+      <string>APC</string>
+     </void>
+    </void>
+    <void class="ComputerItems.myClasses.Computer_item" method="getField">
+     <string>model</string>
+     <void method="set">
+      <object idref="Controller_IO0"/>
+      <string>90</string>
+     </void>
+    </void>
+    <void property="mouse">
+     <object class="ComputerItems.myClasses.Mouse" id="Mouse0">
+      <void property="dpi">
+       <int>45</int>
+      </void>
+      <void property="model">
+       <string>Apple</string>
+      </void>
+      <void property="size">
+       <int>20</int>
+      </void>
+      <void property="type">
+       <object class="java.lang.Enum" method="valueOf">
+        <class>ComputerItems.myClasses.Mouse$Type</class>
+        <string>touchpad</string>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="printer">
+     <object idref="Printer0"/>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Mouse0"/>
+  </void>
+  <void method="add">
+   <object class="ComputerItems.myClasses.Cache" id="Cache0">
+    <void class="ComputerItems.myClasses.Cache" method="getField">
+     <string>level</string>
+     <void method="set">
+      <object idref="Cache0"/>
+      <int>1</int>
+     </void>
+    </void>
+    <void class="ComputerItems.myClasses.Internal_memory" method="getField">
+     <string>size</string>
+     <void method="set">
+      <object idref="Cache0"/>
+      <int>5120</int>
+     </void>
+    </void>
+    <void class="ComputerItems.myClasses.Internal_memory" method="getField">
+     <string>speed</string>
+     <void method="set">
+      <object idref="Cache0"/>
+      <int>10664</int>
+     </void>
+    </void>
+    <void class="ComputerItems.myClasses.Computer_item" method="getField">
+     <string>producer</string>
+     <void method="set">
+      <object idref="Cache0"/>
+      <string>IBM</string>
+     </void>
+    </void>
+    <void class="ComputerItems.myClasses.Computer_item" method="getField">
+     <string>model</string>
+     <void method="set">
+      <object idref="Cache0"/>
+      <string>85</string>
+     </void>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
